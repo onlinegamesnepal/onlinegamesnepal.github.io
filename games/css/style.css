@@ -1,0 +1,59 @@
+body {
+color: #fff;
+font-family: "Orbitron";
+background: #59F76C;
+background: linear-gradient(#50D460, #ADFFB7, #ADFFF1);
+}
+#particles {
+width: 100vw;
+height: 100vh;
+position: fixed;
+top: 0;
+left: 0;
+}
+h1 {
+font-family: Lobster;
+font-size: 7vw;
+font-weight: 100;
+color: #000;
+transform: uppercase;
+text-align: center;
+}
+h2 {
+font-family: Ubuntu;
+font-size: 3vw;
+font-weight: 400;
+color: #000;
+padding-bottom: 1px;
+text-align: center;
+}
+p {
+font-family: Indie Flower;
+font-size: 2.5vw;
+font-weight: 400;
+color: #000;
+margin-top: 40px;
+text-align: center;
+}
+a {
+color: #000;
+border-bottom: 1px;
+solid: #fff;
+padding-bottom: 1px;
+}
+.full-width {
+width: 100%;
+}
+#footer {
+background: rgba(29, 28, 47, 0.9);
+overflow: hidden;
+padding: 10%;
+postition: relative;
+}
+object {
+position: center;
+}
+embed {
+position: center;
+}
+
