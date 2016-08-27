@@ -51,9 +51,14 @@ padding: 10%;
 postition: relative;
 }
 object {
-position: absolute;
+position: absolute
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
 }
 embed {
 position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
 }
-
