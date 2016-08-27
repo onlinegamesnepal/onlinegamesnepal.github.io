@@ -50,3 +50,6 @@ overflow: hidden;
 padding: 10%;
 postition: relative;
 }
+#game {
+margin: 0 auto;
+}
