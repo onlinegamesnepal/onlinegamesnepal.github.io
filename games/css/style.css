@@ -51,10 +51,8 @@ padding: 10%;
 postition: relative;
 }
 object {
-margin-left: auto;
-margin-right: auto;
+text-align: center;
 }
 embed {
-margin-left: auto;
-margin-right: auto;
+text-align: center;
 }
