@@ -51,9 +51,9 @@ padding: 10%;
 postition: relative;
 }
 object {
-position: center;
+position: absolute;
 }
 embed {
-position: center;
+position: absolute;
 }
 
