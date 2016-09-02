@@ -1,0 +1,16 @@
+<!ENTITY % sidmlObject "(register | info | time | text | legal | syntax | thread | yes | no )">
+<!ELEMENT sidml %sidmlObject;>
+<!ATTLIST sidml version CDATA "0.1" >
+
+<!ELEMENT register (%sidmlObject;)*>
+<!ELEMENT text (xnax, %sidmlObject;)*>
+<!ELEMENT xnax (#PCDATA)>
+
+<!ELEMENT thread (#PCDATA)>
+<!ELEMENT info (#PCDATA)>
+<!ELEMENT time (#PCDATA)>
+
+<!ELEMENT yes EMPTY>
+<!ELEMENT no EMPTY>
+<!ELEMENT legal (#PCDATA)>
+<!ELEMENT syntax (#PCDATA)>
